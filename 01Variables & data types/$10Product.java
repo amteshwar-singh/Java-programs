@@ -7,7 +7,7 @@ public class $10Product {
         Scanner sc = new Scanner(System.in);
         System.err.println("Enter 1st Integer");
         int a = sc.nextInt();
-        System.err.println("Enter 2nd Integer");
+        System.out.println("Enter 2nd Integer");
         int b = sc.nextInt();
         int product = a * b;
         System.out.println("Product: "+product);
