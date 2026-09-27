@@ -2,7 +2,7 @@
 
 public class $13stocks {
 
-    public static int stoocks(int prices[]){ 
+    public static int stocks(int prices[]){ 
     int buyPrice=Integer.MAX_VALUE;
     int maxProfit =0;
     for(int i=0;i<prices.length;i++){
@@ -19,6 +19,6 @@ public class $13stocks {
 public static void main(String args[]) {
         int prices[] = {7, 1, 5, 3, 6, 4};
         
-        System.out.println(stoocks(prices));
+        System.out.println(stocks(prices));
     }
 }
